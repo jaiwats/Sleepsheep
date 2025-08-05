@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: S4
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION _ENABLERAMPALPHA_ON _RIMENABLED_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudsRamp:
+        m_Texture: {fileID: 2800000, guid: fddd45f1929b1694ea720aa332a16663, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudsTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DarkCloudsTexture:
+        m_Texture: {fileID: 8900000, guid: ffbea5a011efcb74ca83e46d218f6e11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Goo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GooN:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: d2f89559f5732cc498a56772948e9bfd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimNoiseDistortionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimNoiseTexture:
+        m_Texture: {fileID: 2800000, guid: d2f89559f5732cc498a56772948e9bfd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarsTexture:
+        m_Texture: {fileID: 8900000, guid: 5ab8bbe94e41619499fb7ac2fe842b45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - MyDstMode: 1
+    - MySrcMode: 1
+    - _BumpScale: 1
+    - _CloudsEmissionPower: 1
+    - _CloudsOpacityExp: 1
+    - _CloudsOpacityPower: 1
+    - _CloudsRampOffsetExp: 1
+    - _CloudsRampOffsetExp2: 1
+    - _CloudsRotationSpeed: 0.1
+    - _Cutoff: 0.5
+    - _DarkCloudsEdgesGlowClamp: 2
+    - _DarkCloudsEdgesGlowExp: 1
+    - _DarkCloudsEdgesGlowPower: 50
+    - _DarkCloudsEdgesGlowStyle: 0
+    - _DarkCloudsEnabled: 0
+    - _DarkCloudsLighten: 1
+    - _DarkCloudsRotationSpeed: 0.1
+    - _DarkCloudsThicker: 1
+    - _Debug: 0
+    - _Deform: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _EnableRampAlpha: 1
+    - _EnableTint: 0
+    - _Eta: -0.1
+    - _EtaAAEdgesFix: 0
+    - _EtaFresnelExp: 3
+    - _EtaFresnelExp2: 1
+    - _FadeDistance: 0
+    - _FadeScaleX: 4
+    - _FinalPower: 4
+    - _FlowFac: 1
+    - _GlobalAlpha: 10
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _InvFade: 3
+    - _Metallic: 0
+    - _Mode: 3
+    - _NormalAmount: 1
+    - _OcclusionStrength: 1
+    - _OffsetEnabled: 0
+    - _OffsetLX: 1.043458
+    - _OffsetLZ: -0.03977372
+    - _OffsetRW: 0
+    - _OffsetRX: 1.17
+    - _OffsetRY: 1
+    - _OffsetRZ: -0.173
+    - _OffsetX: 0.85
+    - _Parallax: 0.02
+    - _PinchDeform: 0
+    - _Quest: 0
+    - _ReflectionStrength: 0.5
+    - _Rift: 0
+    - _RiftS: 0
+    - _Rim: 1.6
+    - _RimAddOrMultiply: 0
+    - _RimEmissionPower: 1
+    - _RimEnabled: 1
+    - _RimExp: 4
+    - _RimExp2: 2
+    - _RimNoiseAmount: -2.5
+    - _RimNoiseCAAmount: 0.1
+    - _RimNoiseCAEnabled: 0
+    - _RimNoiseCARimMaskExp: 4
+    - _RimNoiseCAU: 1
+    - _RimNoiseCAV: 0
+    - _RimNoiseDistortionAmount: 0
+    - _RimNoiseDistortionTilingU: 2
+    - _RimNoiseDistortionTilingV: 4
+    - _RimNoiseRefraction: 0
+    - _RimNoiseScrollSpeed: 0.1
+    - _RimNoiseSpherize: 0
+    - _RimNoiseTilingU: 1
+    - _RimNoiseTilingV: 1
+    - _RimNoiseTwistAmount: 0
+    - _RippleSpeed: 0
+    - _RippleStrength: 0.5
+    - _RotationClouds: 0
+    - _RotationDarkClouds: 0
+    - _RotationStars: 0
+    - _Rough: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StarsEmissionPower: 4
+    - _StarsRotationSpeed: 0.1
+    - _UVSec: 0
+    - _UseL: 0
+    - _Vive: 0
+    - _VivePro: 0
+    - _ZWrite: 0
+    - __dirty: 1
+    m_Colors:
+    - _CloudsRampColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _ColorA: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorB: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorHorizon: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: -0, g: -0.06352942, b: -0.1, a: -0.1}
+    - _Flow: {r: 0, g: 1, b: 0, a: -1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimNoiseSpherizePosition: {r: 0, g: 0, b: 0, a: 0}
+    - _RotationAxis: {r: 0, g: 1, b: 0, a: 0}
+    - _TintColor: {r: 0.3066038, g: 0.52798265, b: 1, a: 1}
